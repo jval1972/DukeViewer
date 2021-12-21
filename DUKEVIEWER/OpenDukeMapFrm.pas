@@ -362,7 +362,7 @@ begin
     TrackBar1.Min := DEFDUKE3DCOMPLEXITYFACTOR;
   if TrackBar1.Max < DEFDUKE3DCOMPLEXITYFACTOR then
     TrackBar1.Max := DEFDUKE3DCOMPLEXITYFACTOR;
-    
+
   if not VarIsEmpty(regLightFactor.Value) then
     TrackBar1.Position := Max(TrackBar1.Min, Min(regLightFactor.Value, TrackBar1.Max));
   if not VarIsEmpty(regComplexityFactor.Value) then

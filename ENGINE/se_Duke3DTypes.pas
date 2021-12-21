@@ -404,7 +404,7 @@ type
  sector[?].lotag = 14  A revolving door sector.
  sector[?].lotag = 15  A subway track.
  sector[?].lotag = 16  A true double-sliding door.
- 
+
  wall[?].lotag = 0   Normal wall
  wall[?].lotag = 1   Y-panning wall
  wall[?].lotag = 2   Switch - If you flip it, then all sectors with same hi
